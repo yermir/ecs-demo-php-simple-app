@@ -1,9 +1,9 @@
 {
-    "family": "tetra-cluster-task",
+    "family": "tetra-task",
     "containerDefinitions": [
         {
           "image": "100458984705.dkr.ecr.us-east-2.amazonaws.com/tetranoodle:%BUILD_NUMBER%",
-          "name": "tetra-cluster-task",
+          "name": "tetra-task",
           "cpu": 10,
           "memory": 256,
           "essential": true,
